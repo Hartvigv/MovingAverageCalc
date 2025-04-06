@@ -8,7 +8,6 @@ import {
   Typography,
 } from "@mui/material";
 
-// Fetch list of instruments (keys)
 const fetchKeys = async () => {
   try {
     const response = await fetch(`http://127.0.0.1:8000/api/objectKeys`);
